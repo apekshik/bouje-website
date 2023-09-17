@@ -21,9 +21,6 @@ interface Props {}
 export default function Page() {
   return (
     <div>
-      <div>
-        <SiteHeader /> 
-      </div>
       <div className="px-4 pt-20 text-center">
         <h1 className="text-4xl font-extrabold tracking-normal">Boujè</h1>
         <p className="mx-auto mt-4 max-w-3xl text-base">Store</p>
@@ -40,9 +37,6 @@ export default function Page() {
             {/* This is an empty spacing block */}
           </div>
         </main>
-      </div>
-      <div>
-        <SiteFooter />
       </div>
     </div>
   )
